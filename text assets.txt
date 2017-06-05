@@ -1,0 +1,107 @@
+<!--Title tag-->
+<title>robert glick</title>
+
+<!--Meta tags-->
+<meta name="description" content="Robert Glick is a writer, teacher, performer, and critic based in Rochester, NY."/>
+<meta name="keywords" content="'Robert Glick', 'R.D. Glick', writer, professor, fiction, versal, rochester, utah, novel, wordsinhere, art, performance, 'Hotel Grand Abyss', 'The Paradox of Wonderwoman\'s Airplane', 'Sleep of the Dreamless', poetry, 'leaving poland b', amsterdam"/>
+ 
+<!--possible legacy script-->       
+<script>
+// this may be legacy - if something in the event ID, then show
+// in head, not body
+// If there's anything in the div with the id "event", make it visible
+	function getUpcomingEvent() {
+		var MyDiv = document.getElementById('event');
+		var MyDiv2 = MyDiv.innerHTML; 
+		if 	(MyDiv2!="") {
+			MyDiv.style.display="block";
+		}
+	}
+</script>
+
+<!--place in body -- to track users-->	
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-9206444-1','auto');ga('send','pageview');
+</script>
+
+<!--fusebox image-->	
+<img class="bgimg" src="img/background_crop.jpg">
+
+<!--title as displayed on page-->
+<div class="title2">robert glick</div>
+
+<!--bio - no need for bullet points. Can also create link/hover if desirable-->
+<div class="bio">
+	•assistant professor of creative writing &amp; digital literature at the Rochester Institute of Technology</br>
+	•writer of prose. published in The Gettysburg Review, Black Warrior Review, &amp; The Normal School</br>
+	•coeditor of Versal
+</div>
+				
+<!--event div that's captured in legacy script above-->				
+<div class="newevent" id="event">
+	<p>7/20 ELO panel on JR Carpenter...</p>
+	<!--<p>10/23 - Reading at Mud Club!</p>-->
+</div>
+
+<!--list of publications, with related links. previously, they were a hover from the "publications" link-->
+<div class="publinks" id="pa">
+	<p><a class="pl" href="http://www.uaa.alaska.edu/aqr/" target="blank">Alaska Quarterly Review</a></p>
+	<p><a class="pl" href="http://www.bwr.ua.edu/" target="blank">Black Warrior Review</a></p>
+	<p><a class="pl" href="http://www.english2.mnsu.edu/ber/index.html" target="blank">Blue Earth Review</a></p>
+	<p><a class="pl" href="http://www.bateaupress.org/" target="blank">Bateau</a></p>
+	<p><a class="pl" href="http://www.cincinnatireview.com/" target="blank">The Cincinnati Review</a></p>
+    <p><a class="pl" href="http://thecollagist.com/the-collagist/2015/11/7/instar.html
+" target="blank">The Collagist <span class="readonline">(online!)</span></a></p>
+	<p><a class="pl" href="http://www.copper-nickel.org/" target="blank">Copper Nickel</a></p>
+	<p><a class="pl" href="http://www.decompmagazine.com/flickerastrous.htm" target="blank">decomP <span class="readonline">(online!)</span></a></p>
+	<p><a class="pl" href="http://www.denverquarterly.com/" target="blank">Denver Quarterly</a></p>
+	<p><a class="pl" href="http://thediagram.com/14_2/glick.html" target="blank">Diagram <span class="readonline">(online!)</span></a></p>
+	<p><a class="pl" href="http://www.elevenelevenjournal.com/" target="blank">Eleven Eleven</a></p>
+	<p><a class="pl" href="http://14hills.net/" target="blank">Fourteen Hills</a></p>
+	<p><a class="pl" href="http://www.gettysburgreview.com" target="blank">The Gettysburg Review</a></p>
+	<p><a class="pl" href="http://catpages.nwmissouri.edu/m/tlr/" target="blank">The Laurel Review</a></p>
+	<p><a class="pl" href="http://www.centerforfiction.org" target="blank">The Literarian <span class="readonline">(online!)</span></a></p>
+	<p><a class="pl" href="http://www.ohio.edu/nor/" target="blank">New Ohio Review</a></p>
+	<p><a class="pl" href="http://www.neworleansreview.org/" target="blank">New Orleans Review</a></p>
+	<p><a class="pl" href="http://www.thenormalschool.com" target="blank">The Normal School</a></p>
+	<p><a class="pl" href="http://ndreview.nd.edu/" target="blank">Notre Dame Review</a></p>
+	<p><a class="pl" href="http://www.pankmagazine.com/an-imaginary-history-of-performance-3-white-glove/" target="blank">[PANK] <span class="readonline">(online!)</span></a></p>
+	<p><a class="pl" href="http://myweb.nmu.edu/~passages/" target="blank">Passages North</a></p>
+	<p><a class="pl" href="http://southdakotareview.com/" target="blank">South Dakota Review</a></p>
+	<p><a class="pl" href="http://www.amazon.com/gp/product/1932361332/sr=8-1/qid=1142463185/ref=sr_1_1/104-6528941-7231122?%5Fencoding=UTF8" target="blank">Traveler's Tales Prague</a></p>
+	<p><a class="pl" href="http://www2.tusculum.edu/tusculumreview" target="blank">The Tusculum Review</a></p>
+	<p><a class="pl" href="http://www.csuohio.edu/class/english/whiskeyisland/" target="blank">Whiskey Island</a></p>
+</div>
+					
+<!--list of footer links. Notice that some are external, some social media, etc. We may want to categorize more strictly-->			
+<div class="lfooter">
+	<a href="http://versaljournal.org" target="_blank">versal</a> •
+	<a href="http://www.rit.edu/cla/english/robert-glick" target="blank">rit page</a> •
+	<a href="mailto:robert_at_robertglick.com">email</a> • 
+	<a href="https://www.facebook.com/rdglick" target="_blank">fb</a> •
+	<a href="bio/glick_cv.pdf">cv</a> •
+	<a onclick="javascript:document.getElementById('pa').style.display='block';">publications</a>
+</div>
+					
+<!--the above is everything for the "professional page. what's below might go on the WW splash page-->	
+<div class="wwintro" id="wwintro">
+	<p>THE PARADOX OF WONDERWOMAN’S AIRPLANE is a novel that mines the dark underbelly of suburbia. After a miscarriage, a 40-year-old anesthesiologist in Kansas City unilaterally decides not to have another child. Her two teenagers flee the stress of their insular family bubble, leading them into dangerous collaborations with the laborers of Guantanamo Bay and Bosnian art saboteurs. When her grief-stricken husband steals a rare model of Wonderwoman’s airplane, the family must uncover the airplane’s secrets to heal their fractures.
+	</p> 
+	<p>You can read various chapters, published as discrete stories, online at
+		<a href="http://www.centerforfiction.org" target="blank">The Literarian</a> and
+		<a href="http://thecollagist.com/the-collagist/2015/11/7/instar.html" target="blank">The Collagist</a>.
+		</p>
+	<p>While Paradox will primarily take shape in the print universe, some sections of the novel will only be available in various digital forms. This page functions as the runway for those sections.</p>
+	<p>Thanks to Mitchell Cartner and Christine McCullough (web development), Stella Lee (Wonderwoman airplane image), and Anne Royston (everything!) for design and development of various sections. </p?>
+</div>
+				
+<!--just an example of an external dig lit piece-->		
+<a href="https://www.surveymonkey.com/r/XFR2XR9" target="blank">
+	<div class="wwcircle wwpoll"></div>
+</a>
